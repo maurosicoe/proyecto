@@ -1,0 +1,29 @@
+github es un repositorio online donde la gente puede subir su codigo
+
+Un repositorio es como una carpeta para tu proyecto. 
+El repositorio de tu proyecto contiene todos los archivos de tu repositorio y almacena el historial de revisión de cada archivo.
+
+GitHub es una plataforma de desarrollo colaborativo de software para alojar proyectos utilizando el sistema de control de versiones Git.
+
+
+
+El comando COMMIT define el final de una transacción ejecutada con éxito, es la forma en la que git puede rastrear el ultimo cambio que se hizo
+
+Ramas son espacios o entornos independientes para que un Desarrollador sea Back-end, Front-end, Tester, etc. 
+pueda usar y así trabajar sobre un mismo Proyecto sin chancar o borrar el conjunto de archivos originales del proyecto
+
+1Git clone básicamente realiza una copia idéntica de la última versión de un proyecto en un repositorio y la guarda en tu ordenador.
+2. Git branch: Las ramas (branch) son altamente importantes en el mundo de Git. Usando ramas, varios desarrolladores pueden trabajar en paralelo en el mismo proyecto simultáneamente. 
+Podemos usar el comando git branch para crearlas, listarlas y eliminarlas.
+Git commit: codigo mas utilizado, guardar cambio, solo guardaa en el local
+Git push solamente carga los cambios que han sido confirmados.
+git revert deshará el commit que le hemos indicado, pero creará un nuevo commit deshaciendo la anterio
+Git merge básicamente integra las características de tu rama con todos los commits realizados a las ramas dev (o master).  
+Es importante que recuerdes que tienes que estar en esa rama específica que quieres fusionar  con tu rama de características.
+
+git innit: crear nuevo repositorio de github
+git remote add origin link https://github.com/maurosicoe/prueba.git
+git status
+git add *
+git commit -m "subiendo archivo"
+git push origim master pasar archivos del disco duro al repositorio
